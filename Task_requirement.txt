@@ -1,0 +1,17 @@
+Technical
+Please use https://jsonplaceholder.typicode.com as an API.
+Please use Vue.js for this challenge (you can also use Nuxt / Vuex if you like).
+
+User Story #1
+When first viewing the web app, the user should see a list of posts.
+For each post, the user should see:
+     A post title from the title key
+     A portion of the post body from the body key
+
+User Story #2
+      The user can navigate to read a full post by selecting a post from the list.
+      For this page, the user should see:
+           A post title from the title key
+           The entire post body from the body key
+              The author’s name from the name key, and company name from the company.name key
+               Any comments associated to that post. You can just use the comment body and assume the comments are anonymous.
